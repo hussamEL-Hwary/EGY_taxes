@@ -29,7 +29,7 @@ class Calc_taxes:
             salary_tax[1] += (22000*0.1)
         else:
             salary_tax[1] += (salary_tax[0]*0.1)
-	    salary_tax[0] = 0
+            salary_tax[0] = 0
         return salary_tax
 
 
